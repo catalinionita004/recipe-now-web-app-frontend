@@ -1,0 +1,49 @@
+.sort-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sort-button {
+    background-color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.sort-button.active {
+    background-color: blue;
+    color: white;
+}
+
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+    justify-content: center;
+    color: #fff; /* adaugă această linie */
+}
+
+.pagination > .active > a{
+    background-color: #2f2c79 ;
+    border-color: #2f2c79 ;
+    color: #fff;
+}
+.pagination > li > a{
+    border: 1px solid #2f2c79 ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #2f2c79 ;
+    border-color: #2f2c79;
+    outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+    color: #2f2c79
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+}

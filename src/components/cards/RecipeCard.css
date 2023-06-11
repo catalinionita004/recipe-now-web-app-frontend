@@ -1,0 +1,53 @@
+.image-zoom {
+    transition: transform 0.3s;
+}
+
+.image-zoom:hover {
+    transform: scale(1.2);
+}
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.add-recipe-icon {
+    color: pink;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.RecipeCard {
+    height: 100%;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.image-container:hover .add-recipe-icon {
+    transform: translate(-50%, -50%) scale(1.6);
+}
+
+.add-recipe-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+.timer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.recipe-name {
+    font-size: 6px;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}

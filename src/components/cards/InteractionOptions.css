@@ -1,0 +1,13 @@
+
+.recipe-options{
+    background-color: rgb(61, 60, 60);
+    border-radius: 5px;
+}
+.recipe-options .dropdown-toggle {
+    font-size: 25px;
+}
+.recipe-options .dropdown-toggle:hover{
+    color:red;
+}
+
+

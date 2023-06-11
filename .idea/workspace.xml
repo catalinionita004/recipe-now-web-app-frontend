@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18270f3a-4fe8-4afa-a42c-981a8a96c040" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/styles/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/backgrounds/bg-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/backgrounds/bg-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GOTHIC.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/loader-01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/loader-02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/loader-03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/logo-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/logo-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Asset-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/axios-interceptors/axios-interceptors.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorAnimation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NumberCircle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Rating.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Recipe.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SuccessAnimation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TruncatedText.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/animation/circle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/buttons/bookmark-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/buttons/translate-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/AddNewRecipeCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/DateTimeDisplay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/DateTimeDisplay.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/InteractionOptions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/InteractionOptions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/Modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/RecipeCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/RecipeCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/RecipeOptions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/RecipeOptions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/Timer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/Timer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forms/form-card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/Menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/Menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/UserInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/UserInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/app_colors.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/app_constants.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/ar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/en.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/i18n.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/locales.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/provider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/routes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/auth/auth-actions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/auth/auth-types.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/ingredients/ingredients-action.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/ingredients/ingredients-types.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/interactions/interactions-action.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/interactions/interactions-types.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/recipes/recipes-action.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/recipes/recipes-types.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/tags/tags-action.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/tags/tags-types.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/users/users-actions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/users/users-types.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/auth-reducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/ingredient-reducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/interaction-reducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/recipes-reducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/tag-reducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/user-reducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/util.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RecipeProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RecipesByUser.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RecipesByUser.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RecipesRecommendations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RecipesRecommendations.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RecipesSearched.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RecipesSearched.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/SaveRecipeForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/auth/SignIn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/auth/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2PWl9Jnkw6TQi2k3MG2awK48uqr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/catal/Documents/LICENTA/book-nook-website/src/views/BookProfile.jsx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\catal\Documents\LICENTA\recipe-now-web-app-frontend\public" />
+      <recent name="C:\Users\catal\Documents\LICENTA\recipe-now-web-app-frontend\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\catal\Documents\LICENTA\recipe-now-web-app-frontend\src\assets\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18270f3a-4fe8-4afa-a42c-981a8a96c040" name="Changes" comment="" />
+      <created>1683580565995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683580565995</updated>
+      <workItem from="1683580567025" duration="324000" />
+      <workItem from="1683580906650" duration="520000" />
+      <workItem from="1683581439971" duration="1835000" />
+      <workItem from="1683622301057" duration="3630000" />
+      <workItem from="1683630400720" duration="11893000" />
+      <workItem from="1683706466765" duration="3538000" />
+      <workItem from="1683735289893" duration="954000" />
+      <workItem from="1683743261029" duration="312000" />
+      <workItem from="1683748105722" duration="8481000" />
+      <workItem from="1683785580063" duration="987000" />
+      <workItem from="1683890804294" duration="3238000" />
+      <workItem from="1684084923613" duration="610000" />
+      <workItem from="1684149590822" duration="4298000" />
+      <workItem from="1684171283424" duration="1191000" />
+      <workItem from="1684234149337" duration="27716000" />
+      <workItem from="1684335471384" duration="18598000" />
+      <workItem from="1684398519183" duration="622000" />
+      <workItem from="1684430969909" duration="7201000" />
+      <workItem from="1684669422949" duration="397000" />
+      <workItem from="1684853222979" duration="18851000" />
+      <workItem from="1684916853514" duration="1915000" />
+      <workItem from="1684940885465" duration="28536000" />
+      <workItem from="1684991371052" duration="1207000" />
+      <workItem from="1685006449975" duration="23492000" />
+      <workItem from="1685115759705" duration="13158000" />
+      <workItem from="1685184301973" duration="11266000" />
+      <workItem from="1685255309992" duration="3541000" />
+      <workItem from="1685265864424" duration="6069000" />
+      <workItem from="1685293413545" duration="6864000" />
+      <workItem from="1685342446552" duration="595000" />
+      <workItem from="1685365494158" duration="19889000" />
+      <workItem from="1685431471248" duration="41810000" />
+      <workItem from="1685866273851" duration="13225000" />
+      <workItem from="1686088408822" duration="171000" />
+      <workItem from="1686166462659" duration="1902000" />
+      <workItem from="1686497832236" duration="1482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

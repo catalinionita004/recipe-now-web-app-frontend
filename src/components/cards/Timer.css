@@ -1,0 +1,24 @@
+.timer {
+    display: flex;
+    align-items: center;
+    color: #000000; /* Schimbați culoarea timer-ului la negru */
+}
+
+.timer-icon {
+    margin-right: 5px;
+}
+
+.timer-minutes {
+    font-weight: bold;
+}
+
+.timer-circle {
+    width: fit-content; /* Dimensiunea cercului se ajustează la conținut */
+    height: fit-content; /* Dimensiunea cercului se ajustează la conținut */
+    background-color: #ffffff; /* Schimbați culoarea de fundal a cercului la alb */
+    border-radius: 50%; /* Faceți cercul rotund */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Adăugați un spațiu de padding pentru a mări dimensiunea cercului */
+}

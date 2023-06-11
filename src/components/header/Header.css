@@ -1,0 +1,63 @@
+.header{
+    z-index: 1000;
+    height: 10vh;
+    background: #2f2c79;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 11px;
+    width: 400px;
+    margin-right: auto; /* Centrează search bar-ul pe orizontală */
+    margin-left: auto; /* Centrează search bar-ul pe orizontală */
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 8px; /* Mărește padding-ul pentru aspect mai plăcut */
+    font-size: 18px;
+}
+
+
+.search-icon {
+    margin-right: 8px;
+    font-size: 20px;
+    color: #555555;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+
+.search-icon:hover {
+    background-color: #dddddd;
+}
+
+
+.header .search-bar {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+.items {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Lipșește elementul de marginea dreaptă */
+}
+.sign-out-card {
+    width: 150px;
+    height: 50px;
+    top: 45px;
+    left: 5px;
+}
