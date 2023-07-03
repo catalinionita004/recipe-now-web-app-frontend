@@ -9,6 +9,7 @@ import RecipeRecommendations from "../views/RecipesRecommendations";
 import RecipesByUser from "../views/RecipesByUser";
 import SaveRecipeForm from "../views/SaveRecipeForm";
 import RecipesSearched from "../views/RecipesSearched";
+import RecipesReviewedByUser from "../views/RecipesReviewedByUser";
 
 export default function routes() {
      return (
@@ -26,6 +27,7 @@ export default function routes() {
                <Route exact path="/recipe-profile" component={RecipeDetails} />
                <Route exact path="/recipe-profile/edit" component={SaveRecipeForm} />
                <Route exact path="/my-recipes" component={RecipesByUser}/>
+               <Route exact path="/my-reviewed-recipes" component={RecipesReviewedByUser}/>
                <Route exact path="/new-recipe" component={SaveRecipeForm}/>
                <Route path="/sign-up" component={SignUp} />
                <Route path="/sign-in" component={SignIn} />

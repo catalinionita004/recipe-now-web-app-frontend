@@ -1,30 +1,24 @@
 import React, {useEffect, useState} from "react";
 import {Link, useHistory} from "react-router-dom";
 
-import {useTranslation} from "react-i18next";
-
 // import { useDispatch, useSelector } from "react-redux";
 
 import {useFormik} from "formik";
 import * as Yup from "yup";
 
 import {BsArrowLeftCircle, BsArrowRightShort} from "react-icons/bs";
-import {IoIosArrowDown} from "react-icons/io";
-
 import FormCard from "../../components/forms/form-card";
 import Circle from "../../components/animation/circle";
 import BookmarkButton from "../../components/buttons/bookmark-button";
 import {userRegistration} from "../../store/actions/users/users-actions";
 import {useDispatch} from "react-redux";
 import Cookies from "universal-cookie";
-import TranslateButton from "../../components/buttons/translate-button";
-import {FaCheckCircle, FaTimesCircle} from "react-icons/fa";
-import SuccessIcon from "../../components/SuccessAnimation";
+
 import SuccessAnimation from "../../components/SuccessAnimation";
 import ErrorAnimation from "../../components/ErrorAnimation";
-// import { userRegistration } from "../../store/actions/users/users-actions";
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import {useTranslation} from "react-i18next";
 
 const SignUp = () => {
     const cookies = new Cookies();

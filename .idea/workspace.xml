@@ -5,105 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18270f3a-4fe8-4afa-a42c-981a8a96c040" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/styles/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/backgrounds/bg-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/backgrounds/bg-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/GOTHIC.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/loader-01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/loader-02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/loader-03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/logo-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/logo-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Asset-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/img-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/axios-interceptors/axios-interceptors.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ErrorAnimation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NumberCircle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Recipe.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SuccessAnimation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TruncatedText.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/animation/circle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/bookmark-button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/translate-button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/AddNewRecipeCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/DateTimeDisplay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/DateTimeDisplay.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/InteractionOptions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/InteractionOptions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/Modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/Modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/RecipeCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/RecipeCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/RecipeOptions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/RecipeOptions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/Timer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/Timer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forms/form-card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu/Menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu/Menu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/UserInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/UserInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/app_colors.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/app_constants.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locales/ar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locales/en.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locales/i18n.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locales/locales.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/locales/provider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/routes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/auth/auth-actions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/auth/auth-types.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/ingredients/ingredients-action.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/ingredients/ingredients-types.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/interactions/interactions-action.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/interactions/interactions-types.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/recipes/recipes-action.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/recipes/recipes-types.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/tags/tags-action.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/tags/tags-types.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/users/users-actions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/users/users-types.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/auth-reducer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/ingredient-reducer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/interaction-reducer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/recipes-reducer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/tag-reducer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/user-reducer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/types.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/util.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/RecipeProfile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/RecipesByUser.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/RecipesByUser.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/RecipesRecommendations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/RecipesRecommendations.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/RecipesSearched.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/RecipesSearched.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/SaveRecipeForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/auth/SignIn.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/auth/SignUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RecipesReviewedByUser.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/ar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/i18n.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/i18n.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/recipes/recipes-action.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/recipes/recipes-action.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/recipes/recipes-types.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/recipes/recipes-types.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/recipes-reducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/recipes-reducer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/SaveRecipeForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/SaveRecipeForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/auth/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/auth/SignUp.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +121,8 @@
       <workItem from="1685866273851" duration="13225000" />
       <workItem from="1686088408822" duration="171000" />
       <workItem from="1686166462659" duration="1902000" />
-      <workItem from="1686497832236" duration="1482000" />
+      <workItem from="1686497832236" duration="2088000" />
+      <workItem from="1688406931249" duration="6268000" />
     </task>
     <servers />
   </component>

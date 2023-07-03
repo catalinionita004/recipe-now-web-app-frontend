@@ -325,17 +325,13 @@ const SaveRecipeForm = () => {
     const [forumEvent,setForumEvent] = useState(null);
 
     const handleConfirm = () => {
-
         forumEvent.preventDefault();
         if (!areRequiredFieldsFilled()) {
             alert('Toate câmpurile obligatorii trebuie completate!');
             return;
         }
-
         const finalRecipe = {...recipe, recipeStepList: steps, ingredients: ingredients, tags: tags};
-        // console.log(finalRecipe.recipeStepList)
         dispatch(addNewRecipe(finalRecipe)).then(() => {
-
             history.push("/my-recipes", {
                 recipeId: recipeId,
             });

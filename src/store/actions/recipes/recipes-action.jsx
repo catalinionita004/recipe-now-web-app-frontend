@@ -15,7 +15,7 @@ import {
     SEARCHED_LOADING,
     TOTAL_SEARCHED_ELEMENTS,
     TOTAL_SEARCHED_PAGES,
-    SEARCHED_CURRENT_PAGE, SEARCHED_NUMBER_OF_ELEMENTS_ON_CURRENT_PAGE
+    SEARCHED_CURRENT_PAGE, SEARCHED_NUMBER_OF_ELEMENTS_ON_CURRENT_PAGE, RECIPES_REVIEWED
 } from "../../types";
 import {INITIAL_EMPTY_CARDS} from "../../../constants/app_constants";
 
@@ -53,6 +53,23 @@ export const getRecipesSearched = (filter) => {
             });
     };
 };
+
+
+export const getRecipesReviewedByUser = (page) => {
+    return (dispatch) => {
+        return axios.get(`${URL}/find-reviewed-recipes?page=${page}&size=40`).then((res) => {
+            if (res.data.success) {
+                dispatch({type: RECIPES_REVIEWED, payload: res.data.body})
+                //console.log(res.data.body)
+            }
+        })
+            .catch((error) => {
+                console.error("A apărut o eroare în timpul cautarii rețetelor apreciate", error);
+            });
+    };
+};
+
+
 
 export const getRecommendedRecipes = (page) => {
     return (dispatch) => {

@@ -13,12 +13,18 @@ import {
     TOTAL_SEARCHED_ELEMENTS,
     TOTAL_SEARCHED_PAGES,
     SEARCHED_CURRENT_PAGE,
-    SEARCHED_NUMBER_OF_ELEMENTS_ON_CURRENT_PAGE
+    SEARCHED_NUMBER_OF_ELEMENTS_ON_CURRENT_PAGE, RECIPES_REVIEWED
 } from "../types";
 
 export default function recipes_reducer(state = {}, action) {
     switch (action.type) {
         // LOGIN
+
+        case RECIPES_REVIEWED:
+            return {
+                ...state,
+                recipesReviewedPage: action.payload,
+            };
         case RECIPES_REQUEST:
             return {...state, gettingRecipes: true};
         case RECIPE_FILTER:
@@ -101,6 +107,7 @@ export default function recipes_reducer(state = {}, action) {
                 totalSearchedElements: action.payload,
                 totalSearchedPages: action.payload,
                 searchedCurrentPage:action.payload,
+                recipesReviewedPage: action.payload,
                 searchedLoading: false,
                 searched_number_of_elements_on_current_page:action.payload,
             };
