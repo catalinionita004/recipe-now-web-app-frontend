@@ -35,11 +35,11 @@ export const getRecipeById = (recipeId) => (dispatch) => {
     });
 };
 export const getRecipesSearched = (filter) => {
-    console.log(`${URL}/search?${filter}`);
     return (dispatch) => {
         dispatch({type: RECIPE_FILTER, payload: filter})
         return axios.get(`${URL}/search?${filter}&size=40`).then((res) => {
             if (res.data.success) {
+        
                 dispatch({type: RECIPES_SEARCHED, payload: res.data.body.content})
                 dispatch({type: TOTAL_SEARCHED_ELEMENTS, payload: res.data.body.totalElements})
                 dispatch({type: TOTAL_SEARCHED_PAGES, payload : res.data.body.totalPages})
@@ -60,7 +60,7 @@ export const getRecipesReviewedByUser = (page) => {
         return axios.get(`${URL}/find-reviewed-recipes?page=${page}&size=40`).then((res) => {
             if (res.data.success) {
                 dispatch({type: RECIPES_REVIEWED, payload: res.data.body})
-                //console.log(res.data.body)
+    
             }
         })
             .catch((error) => {
@@ -76,6 +76,7 @@ export const getRecommendedRecipes = (page) => {
         return axios.get(`${URL}/find-all-recommended?page=${page}&size=${INITIAL_EMPTY_CARDS}`).then((res) => {
             if (res.data.success) {
                 dispatch({type: RECOMMENDED_RECIPES, payload: res.data.body.content})
+                console.log("responseeee" + res.data.body.content[0].imageUrl)
             }
         })
             .catch((error) => {

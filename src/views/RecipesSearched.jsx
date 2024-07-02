@@ -418,7 +418,7 @@ const RecipesSearched = () => {
                         className={activeTimeButton === '120-99999' ? "active" : ""}
                         onClick={() => handleTimeClick(120, 99999)}
                     >
-                        <TimerIcon/> <span>> 120 mins</span>
+                        <TimerIcon/> <span> 120 mins</span>
                     </StyledButton>
                 </div>
                 <div>

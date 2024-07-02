@@ -1,5 +1,5 @@
 import React from "react";
-import {useHistory} from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import Rating from "../Rating";
 import RecipeOptions from "./RecipeOptions";
 import "./RecipeCard.css";
@@ -7,10 +7,10 @@ import Timer from "./Timer";
 import DateTimeDisplay from "./DateTimeDisplay";
 
 const RecipeCard = (props) => {
-    const {recipe, optionsFromRecipeCard, emptyCard = false} = props;
+    const { recipe, optionsFromRecipeCard, emptyCard = false } = props;
     const history = useHistory();
 
-
+  
     if (emptyCard) {
         console.log("emptycard")
         return (
@@ -27,13 +27,14 @@ const RecipeCard = (props) => {
         );
     }
 
+      // Verifica dacă există imageUrl în rețeta curentă
+      
+      const imageUrl = recipe.imageUrl ? recipe.imageUrl :  "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg"
 
+  
     return (
         <div className="col col-list d-flex justify-content-start align-items-center text-white">
-
-            <div
-                className="d-flex justify-content-between align-items-center flex-column w-100 h-75 overflow-hidden position-relative relative overflow-hidden rounded-xl"
-            >
+            <div className="d-flex justify-content-between align-items-center flex-column w-100 h-75 overflow-hidden position-relative relative overflow-hidden rounded-xl">
 
                 <Timer minutes={recipe.minutes}/>
                 <div className="h-75 d-flex justify-content-center align-content-center rounded-5 overflow-hidden"
@@ -42,9 +43,8 @@ const RecipeCard = (props) => {
                              recipeId: recipe.id,
                          })
                      }>
-
                     <img
-                        src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg"
+                        src={imageUrl}
                         alt={recipe.name}
                         className="h-100 rounded-5  cursor-pointer image-zoom"
                     />
@@ -66,7 +66,6 @@ const RecipeCard = (props) => {
                     {recipe.name}
                 </h1>
 
-
                 <Rating averageRating={recipe.averageRating} ratingCount={recipe.ratingCount}/>
 
                 {recipe.predictedValue ? (
@@ -86,13 +85,10 @@ const RecipeCard = (props) => {
                         </>
                     )
                 )}
-                <DateTimeDisplay date = {recipe.submitted}/>
+                <DateTimeDisplay date={recipe.submitted}/>
             </div>
-
-
         </div>
-    )
-        ;
+    );
 };
 
 export default RecipeCard;

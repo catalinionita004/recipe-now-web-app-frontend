@@ -211,7 +211,7 @@ const RecipeDetails = (props) => {
 
     // console.log(currentRecipe)
 
-
+  
     return (
         <div>
             <Header fixed="true"/>
@@ -245,7 +245,7 @@ const RecipeDetails = (props) => {
                                     {currentUser && currentRecipe.user && currentUser.id === currentRecipe.user.id &&
                                         <RecipeOptions recipeId={currentRecipe.id}/>}
                                     <img
-                                        src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg"
+                                        src={currentRecipe.imageUrl ? currentRecipe.imageUrl : "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg"}
                                         alt={currentRecipe.name}
                                         className="img-fluid"
                                     />

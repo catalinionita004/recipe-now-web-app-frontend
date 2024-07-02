@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18270f3a-4fe8-4afa-a42c-981a8a96c040" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/RecipesReviewedByUser.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/ar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/i18n.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/i18n.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/recipes/recipes-action.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/recipes/recipes-action.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/recipes/recipes-types.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/recipes/recipes-types.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/recipes-reducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/recipes-reducer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/SaveRecipeForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/SaveRecipeForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/auth/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/auth/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/loader-02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/loader-03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/logo-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/logo-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/img-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/img-02.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2PWl9Jnkw6TQi2k3MG2awK48uqr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +42,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/catal/Documents/LICENTA/book-nook-website/src/views/BookProfile.jsx&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/catal/Documents/PROJECTS/recipe-now-web-app-frontend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,7 +65,7 @@
       <recent name="C:\Users\catal\Documents\LICENTA\recipe-now-web-app-frontend\src\assets\images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -123,6 +125,9 @@
       <workItem from="1686166462659" duration="1902000" />
       <workItem from="1686497832236" duration="2088000" />
       <workItem from="1688406931249" duration="6268000" />
+      <workItem from="1714379050415" duration="1740000" />
+      <workItem from="1719180075896" duration="18000" />
+      <workItem from="1719180308965" duration="19000" />
     </task>
     <servers />
   </component>
