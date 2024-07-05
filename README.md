@@ -4,7 +4,7 @@ Welcome to the frontend repository for the Recipe Now Web App! If you're looking
 
 # 🌟 **Explore the Backend** 🌟
 
-[![Recipe Now Backend](https://img.shields.io/badge/Recipe%20Now-Backend-brightgreen?style=for-the-badge)]([https://github.com/your-username/recipe-now-backend](https://github.com/catalinionita004/recipe-now-web-app-backend))
+[![Recipe Now Backend](https://img.shields.io/badge/Recipe%20Now-Backend-brightgreen?style=for-the-badge)](https://github.com/catalinionita004/recipe-now-web-app-backend)
 
 ## ✨ What's Inside?
 
