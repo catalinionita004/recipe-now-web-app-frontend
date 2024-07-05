@@ -1,6 +1,6 @@
 export const APIs_URL = {
-	STAGING: "https://recipe-now-backend-s7qlbu7unq-ez.a.run.app/recipe-now-api/api",
-	//STAGING: "http://localhost:8080/recipe-now-api/api",
+	//STAGING: "https://recipe-now-backend-s7qlbu7unq-ez.a.run.app/recipe-now-api/api",
+	STAGING: "http://localhost:8080/recipe-now-api/api",
 
 
 	
